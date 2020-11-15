@@ -1,0 +1,33 @@
+Escriu les instruccions que has executat per fer els apartats 1, 5, 7, 10b, 12 i 14a de la pràctica.
+APARTATS PRIMERA PART DE LA PRÁCTICA
+1- git clone https://github.com/dacomo2021daw2/prjava02.git 
+5- git status
+   git ls-tree -r main
+7- git remote add origin https://github.com/segavi2021daw2/prjava02.git
+   git push -u origin main
+   git branch -M main
+   git push -u origin main
+----------------------------------------------------------
+Apartats segona part 
+1-git branch branca00 
+git checkout branca00 
+git status 
+5-git checkout main
+git log main
+7- No s' ha utilitzat cap comanda en aquest apartat simplement s' ha fet una 
+comprovació amb geany. 
+10 b- git merge branca00
+12- git push -u origin main
+14 a- git push -u origin branca01 
+---------------------------------------------------------
+També has d'afegir la resposta a les preguntes dels apartat 6, 7, 12c i 14c de la pràctica.
+6- No, la linia número 28 es l´última que es pot veure (de system.out) ja que estem intentant veure
+un contingut que ha sigut modificat en una altre branca sense fer un merge previament. 
+7- Desde la branca00 si que ho podem veure la sentencia afegida a la linia 29 ja que s' ha realitzat
+en la mateixa branca. 
+12c- Perquè es la única branca a la que se l' hi a aplicat un push, per veure 
+la resta hauriem de fer el mateix procés. 
+14c- Després de executar la comanda git log main..branca01. Ens respòn amb 
+HEAD-> branca01, origin/branca01. I ens surt el commit de la versió 
+" Versió 1.3 del projecte prjava02  ". Es a dir está a un commit. 
+----------------------------------------------------------
